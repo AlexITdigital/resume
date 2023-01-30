@@ -1,0 +1,64 @@
+body {
+  background-image: url(https://rare-gallery.com/uploads/posts/346071-Digital-Art-Cube-Technology.jpg);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.rounded-img {
+  width: 60%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 0.6em;
+  margin-bottom: 1em;
+}
+
+.container {
+  color: rgb(20, 94, 0);
+}
+
+.cards {
+  border-radius: 1.25em;
+  text-align: center;
+  padding: 1em;
+  color: rgb(30, 126, 4);
+  background-color: rgba(1, 11, 11, 0.866);
+  margin-bottom: 15px;
+}
+
+.card {
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+  color: rgb(30, 126, 4);
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.925);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+}
+
+.card {
+  margin-top: 60px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.osv {
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+.osv li {
+  padding-bottom: 10px;
+  list-style: square;
+  margin-bottom: 10px;
+}
