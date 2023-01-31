@@ -26,12 +26,17 @@ body {
   margin-bottom: 15px;
 }
 
+.pag {
+  margin-right: 20px;
+}
+
 .card {
   border-radius: 1em;
   text-align: center;
   padding: 1em;
   color: rgb(30, 126, 4);
 }
+
 .card:hover {
   background-color: rgba(0, 0, 0, 0.925);
 }
@@ -57,8 +62,45 @@ body {
   font-family: inherit;
   margin-bottom: 20px;
 }
+
 .osv li {
   padding-bottom: 10px;
   list-style: square;
   margin-bottom: 10px;
+}
+
+.cols {
+  margin-right: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: rgba(1, 145, 20, 0.866);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  color: rgb(30, 126, 4);
+  background-color: rgba(0, 0, 0, 0.866);
+}
+
+.column {
+  text-align: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 0px;
 }
